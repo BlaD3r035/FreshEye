@@ -11,39 +11,42 @@ El repositorio contiene:
 
 ```text
 FreshEye/
-├── FreshEye_frontend/
+├── FreshEye_frontend/          # Cliente web (React + Vite + TypeScript)
 │   ├── src/
-│   │   ├── components/
-│   │   ├── hooks/
-│   │   ├── services/
-│   │   └── lib/
-│   ├── package.json
-│   └── .env.local.example
-├── FreshEye_backend/
+│   │   ├── components/         # UI principal
+│   │   ├── hooks/              # Hook de cámara
+│   │   ├── services/           # Llamadas HTTP al backend
+│   │   ├── data/               # Catálogo de ingredientes
+│   │   └── lib/                # Config de API
+│   ├── .env.local.example
+│   └── package.json
+│
+├── FreshEye_backend/           # API + detección con YOLO
+|   ├── dataset/                # labels e imagenes para el entrenamiento de YOLOV8m
 │   ├── app/
-│   │   ├── main.py
-│   │   ├── real_detector.py
-│   │   ├── recipes.py
-│   │   └── config.py
-│   ├── training/
-│   │   ├── train.py
-│   │   ├── evaluate.py
-│   │   └── data.yaml
+│   │   ├── main.py             # API FastAPI Rutas
+│   │   ├── real_detector.py    # Inferencia YOLOv8 sobre imágenes
+│   │   ├── recipes.py          # Carga y matching de recetas
+│   │   └── config.py           # Config global (MODEL_PATH, CLASSES)
 │   ├── models/
-│   │   └── best.pt
+│   │   └── best.pt             # Pesos del modelo entrenado
+│   ├── training/
+│   │   ├── train.py            # Script de entrenamiento YOLOv8
+│   │   ├── evaluate.py         # Script de evaluación
+│   │   └── data.yaml           # Configuración del dataset
 │   ├── util/
-│   │   └── recipes.json
+│   │   └── recipes.json        # Base de recetas
 │   ├── requirements.txt
 │   └── requirements-training.txt
-└── runs/
+│
+└── runs/                       # Resultados históricos de entrenamiento/evaluación (last)
 ```
 
 ## Requisitos
 
 - **Node.js** 18+
-- **npm** 9+
+- **npm** 9+ / **pnpm**
 - **Python** 3.10+
-- (Opcional) GPU compatible para acelerar inferencia y entrenamiento
 
 ## Instalación
 
@@ -59,14 +62,12 @@ cd FreshEye
 ```bash
 cd FreshEye_backend
 python -m venv .venv
-source .venv/bin/activate   # En Windows: .venv\Scripts\activate
+source .venv/bin/activate 
 pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
 ### 3) Frontend
-
-En otra terminal:
 
 ```bash
 cd FreshEye_frontend
@@ -74,22 +75,20 @@ npm install
 cp .env.local.example .env.local
 ```
 
-Si necesitas apuntar a otro backend, edita `VITE_API_URL` en `.env.local`.
-
 ## Ejecución de la app principal
 
-### 1) Levantar backend (API)
+### 1) Iniciar backend (API)
 
 Desde `FreshEye_backend`:
 
 ```bash
-source .venv/bin/activate   # En Windows: .venv\Scripts\activate
+source .venv/bin/activate 
 uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
 ```
 
 Endpoints principales:
 - `GET /` estado de la API
-- `POST /detect` detección de ingredientes desde imagen
+- `POST /detect` detección de ingredientes desde imagen (type File)
 - `GET /recipes` listado de recetas
 - `POST /recipes/recommend` recomendaciones según ingredientes detectados
 
@@ -117,7 +116,7 @@ Los scripts están en `FreshEye_backend/training`.
 
 ### Instalar dependencias de entrenamiento
 
-Desde `FreshEye_backend` (en tu entorno virtual):
+Desde `FreshEye_backend` :
 
 ```bash
 pip install -r requirements-training.txt
@@ -151,19 +150,3 @@ python training/evaluate.py --weights ../models/best.pt
 
 `data.yaml` define rutas y clases del dataset para entrenamiento/validación.
 
-## Scripts útiles del frontend
-
-Desde `FreshEye_frontend`:
-
-```bash
-npm run dev      # desarrollo
-npm run build    # build de producción
-npm run preview  # previsualizar build
-npm run lint     # lint del frontend
-```
-
-## Notas
-
-- El backend acepta imágenes `JPEG`, `PNG` y `WEBP`.
-- El frontend, por defecto, consume `http://localhost:8000`.
-- Asegúrate de tener el archivo de pesos del modelo en `FreshEye_backend/models/best.pt`.
