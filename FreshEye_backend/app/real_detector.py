@@ -12,6 +12,7 @@ class ImagePreprocessor:
     def __init__(self, clahe_clip: float = 1.2, clahe_grid=(8, 8), max_dim: int = 1024):
         self.clahe = cv2.createCLAHE(clipLimit=clahe_clip, tileGridSize=clahe_grid)
         self.max_dim = max_dim
+        
     # resize de imagen max 1024, mejor manejo de la imagen y de igual manera en yolo se reduce a 640
     def resize(self, img: np.ndarray) -> np.ndarray:
         h, w = img.shape[:2]
