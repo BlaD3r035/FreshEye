@@ -3,7 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 
 from app.recipes import load_recipes, match_recipes
-
+# antiguo detector de prueba para la api
 # from app.mock_detector import MockDetector
 
 from app.real_detector import RealDetector
@@ -51,7 +51,7 @@ async def detectar(file: UploadFile = File(...)):
         raise HTTPException(status_code=500, detail=f"Error processing the image: {e}")
 
     ingredientes_unicos = sorted({d["clase"] for d in detecciones})
-
+    
     return {
         "detecciones": detecciones,
         "ingredientes_detectados": ingredientes_unicos,

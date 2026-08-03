@@ -10,7 +10,7 @@ def main():
         help="Path to the trained model (best.pt)",
     )
     args = parser.parse_args()
-
+    # carga el modelo YOLO y evalua con dataset Val
     model = YOLO(args.weights)
     metrics = model.val()
 
