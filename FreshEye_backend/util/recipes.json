@@ -1,0 +1,949 @@
+[
+  {
+    "id": "guacamole-clasico",
+    "title": "Guacamole Clásico",
+    "time": "15 min",
+    "difficulty": "Facil",
+    "emoji": "🥑",
+    "ingredientIds": [
+      "Aguacate",
+      "Cebolla",
+      "Tomate",
+      "Cilantro",
+      "Limon",
+      "Ajo"
+    ],
+    "steps": [
+      "Corta los aguacates por la mitad, retira la semilla y extrae la pulpa con una cuchara en un bowl.",
+      "Machaca el aguacate con un tenedor hasta obtener una textura semi-grumosa, no completamente lisa.",
+      "Pica finamente la cebolla, el tomate y el cilantro; agrega el ajo finamente picado.",
+      "Mezcla todo con el aguacate y añade el jugo de un limón, sal y pimienta al gusto.",
+      "Deja reposar 5 minutos en la nevera cubierto con papel film en contacto directo para evitar oxidación."
+    ]
+  },
+  {
+    "id": "ensalada-aguacate-pepino",
+    "title": "Ensalada Fresca de Aguacate y Pepino",
+    "time": "15 min",
+    "difficulty": "Facil",
+    "emoji": "🥗",
+    "ingredientIds": ["Aguacate", "Pepino", "Tomate", "Lechuga", "Limon"],
+    "steps": [
+      "Lava la lechuga y trocéala en trozos medianos.",
+      "Corta el pepino en rodajas finas, el tomate en gajos y el aguacate en cubos.",
+      "Combina todos los vegetales en un bowl grande.",
+      "Aliña con jugo de limón, aceite de oliva, sal y pimienta.",
+      "Deja reposar 5 minutos antes de servir para que se integren los sabores."
+    ]
+  },
+  {
+    "id": "tostadas-aguacate-huevo",
+    "title": "Tostadas de Aguacate y Huevo Poché",
+    "time": "12 min",
+    "difficulty": "Facil",
+    "emoji": "🍞",
+    "ingredientIds": ["Aguacate", "Huevo", "Limon", "Pan"],
+    "steps": [
+      "Tuesta el pan hasta que quede dorado y crocante.",
+      "Machaca el aguacate con jugo de limón, sal y pimienta.",
+      "Hierve agua con un chorrito de vinagre, crea un remolino con una cuchara e introduce el huevo para escalfarlo durante 3 minutos.",
+      "Unta el aguacate sazonado sobre el pan tostado.",
+      "Coloca el huevo poché encima, sazona con sal y pimienta y sirve de inmediato."
+    ]
+  },
+  {
+    "id": "crema-de-auyama",
+    "title": "Crema de Auyama con Ajo y Cebolla",
+    "time": "40 min",
+    "difficulty": "Medio",
+    "emoji": "🎃",
+    "ingredientIds": [
+      "Auyama",
+      "Cebolla",
+      "Ajo",
+      "Zanahoria",
+      "Caldo de pollo",
+      "Crema de leche"
+    ],
+    "steps": [
+      "Pela y corta la auyama y la zanahoria en cubos uniformes.",
+      "Sofríe la cebolla y el ajo picados en una olla con aceite durante 5 minutos hasta transparentar.",
+      "Añade la auyama, la zanahoria y el caldo de pollo; cocina a fuego medio 25 minutos hasta que estén blandas.",
+      "Licúa todo hasta obtener una crema homogénea.",
+      "Regresa la crema a la olla, añade la crema de leche y calienta 5 minutos sin dejar hervir."
+    ]
+  },
+  {
+    "id": "pure-auyama-papa",
+    "title": "Puré de Auyama y Papa",
+    "time": "35 min",
+    "difficulty": "Facil",
+    "emoji": "🎃",
+    "ingredientIds": ["Auyama", "Papa", "Cebolla", "Ajo", "Mantequilla"],
+    "steps": [
+      "Pela y corta la auyama y la papa en trozos de tamaño similar.",
+      "Hierve en agua con sal durante 20 minutos hasta que estén tiernas.",
+      "Mientras tanto, sofríe la cebolla y el ajo picados en una sartén durante 5 minutos.",
+      "Escurre la auyama y la papa, y machaca con un pisapapas.",
+      "Integra el sofrito y la mantequilla, mezclando hasta obtener una textura homogénea."
+    ]
+  },
+  {
+    "id": "berenjenas-rellenas-carne",
+    "title": "Berenjenas Rellenas de Carne de Res",
+    "time": "60 min",
+    "difficulty": "Dificil",
+    "emoji": "🍆",
+    "ingredientIds": [
+      "Berenjena",
+      "Carne de res",
+      "Cebolla",
+      "Tomate",
+      "Ajo",
+      "Pimenton",
+      "Queso"
+    ],
+    "steps": [
+      "Precalienta el horno a 190°C.",
+      "Corta las berenjenas por la mitad a lo largo, vacía la pulpa dejando un borde de 1 cm y reserva la pulpa picada.",
+      "Sofríe cebolla, ajo y pimentón picados durante 5 minutos, agrega la carne molida y dora 8 minutos.",
+      "Incorpora la pulpa de berenjena y el tomate picado, cocina 10 minutos a fuego medio hasta reducir.",
+      "Rellena las berenjenas con la mezcla y cubre con queso rallado.",
+      "Hornea 25 minutos hasta gratinar y que la berenjena esté tierna."
+    ]
+  },
+  {
+    "id": "berenjena-a-la-parmesana",
+    "title": "Berenjena a la Parmesana",
+    "time": "50 min",
+    "difficulty": "Medio",
+    "emoji": "🍆",
+    "ingredientIds": [
+      "Berenjena",
+      "Tomate",
+      "Ajo",
+      "Cebolla",
+      "Queso",
+      "Pan rallado"
+    ],
+    "steps": [
+      "Corta la berenjena en rodajas de 1 cm, sálalas y déjalas reposar 15 minutos para retirar el amargor; sécalas con papel.",
+      "Dora las rodajas en sartén con poco aceite, 3 minutos por lado.",
+      "Prepara la salsa: sofríe cebolla y ajo, agrega tomate triturado y cocina 15 minutos.",
+      "En un molde, alterna capas de berenjena, salsa y queso.",
+      "Hornea a 200°C durante 20 minutos hasta gratinar la superficie."
+    ]
+  },
+  {
+    "id": "ratatouille-de-vegetales",
+    "title": "Ratatouille de Vegetales",
+    "time": "45 min",
+    "difficulty": "Medio",
+    "emoji": "🍆",
+    "ingredientIds": [
+      "Berenjena",
+      "Pimenton",
+      "Tomate",
+      "Cebolla",
+      "Ajo",
+      "Perejil"
+    ],
+    "steps": [
+      "Corta la berenjena, el pimentón, la cebolla y el tomate en cubos medianos.",
+      "Sofríe la cebolla y el ajo en aceite de oliva durante 5 minutos.",
+      "Añade la berenjena y el pimentón, cocina 10 minutos removiendo ocasionalmente.",
+      "Incorpora el tomate, tapa y cocina a fuego bajo 20 minutos hasta que estén tiernos.",
+      "Finaliza con perejil picado fresco y ajusta la sazón."
+    ]
+  },
+  {
+    "id": "lomo-de-res-al-ajillo",
+    "title": "Lomo de Res al Ajillo con Papas",
+    "time": "35 min",
+    "difficulty": "Medio",
+    "emoji": "🥩",
+    "ingredientIds": ["Carne de res", "Ajo", "Papa", "Perejil", "Cebolla"],
+    "steps": [
+      "Corta la carne en medallones de 2 cm y salpimenta.",
+      "Sella en sartén muy caliente con aceite 2 minutos por lado, reserva.",
+      "En la misma sartén dora ajo laminado y cebolla en juliana durante 5 minutos.",
+      "Fríe las papas en cubos aparte hasta dorar, unos 15 minutos.",
+      "Regresa la carne a la sartén, mezcla con el ajo y la cebolla, finaliza con perejil picado."
+    ]
+  },
+  {
+    "id": "carne-de-res-guisada",
+    "title": "Carne de Res Guisada con Zanahoria y Papa",
+    "time": "90 min",
+    "difficulty": "Dificil",
+    "emoji": "🍲",
+    "ingredientIds": [
+      "Carne de res",
+      "Zanahoria",
+      "Papa",
+      "Cebolla",
+      "Ajo",
+      "Tomate",
+      "Perejil"
+    ],
+    "steps": [
+      "Corta la carne en cubos de 3 cm y sella en olla caliente con aceite hasta dorar por todos lados, unos 8 minutos.",
+      "Retira la carne y sofríe cebolla y ajo en la misma olla 5 minutos.",
+      "Agrega el tomate picado y cocina 5 minutos hasta formar una salsa.",
+      "Devuelve la carne, cubre con agua o caldo, tapa y cocina a fuego bajo 50 minutos.",
+      "Añade zanahoria y papa en trozos, cocina 25 minutos más hasta que la carne esté tierna.",
+      "Finaliza con perejil picado."
+    ]
+  },
+  {
+    "id": "bistec-encebollado",
+    "title": "Bistec Encebollado",
+    "time": "25 min",
+    "difficulty": "Facil",
+    "emoji": "🥩",
+    "ingredientIds": ["Carne de res", "Cebolla", "Ajo", "Limon", "Perejil"],
+    "steps": [
+      "Salpimenta los bistecs y marínalos con jugo de limón y ajo machacado durante 10 minutos.",
+      "Sella en sartén caliente 3 minutos por lado, reserva.",
+      "En la misma sartén saltea la cebolla en juliana hasta que esté suave y dorada, 8 minutos.",
+      "Regresa la carne a la sartén, cocina 2 minutos más integrando los jugos.",
+      "Sirve espolvoreado con perejil fresco."
+    ]
+  },
+  {
+    "id": "sopa-de-carne-de-res",
+    "title": "Sopa de Carne de Res con Vegetales",
+    "time": "120 min",
+    "difficulty": "Dificil",
+    "emoji": "🍜",
+    "ingredientIds": [
+      "Carne de res",
+      "Zanahoria",
+      "Papa",
+      "Auyama",
+      "Cebolla",
+      "Ajo",
+      "Cilantro"
+    ],
+    "steps": [
+      "Coloca la carne en trozos grandes en una olla con agua fría, lleva a hervor y espuma las impurezas.",
+      "Añade cebolla y ajo enteros, baja el fuego y cocina tapado 90 minutos hasta que la carne esté tierna.",
+      "Retira la carne, desmenúzala y cuela el caldo.",
+      "Agrega al caldo zanahoria, papa y auyama en trozos, cocina 20 minutos.",
+      "Devuelve la carne desmenuzada a la olla y calienta 5 minutos más.",
+      "Sirve con cilantro fresco picado."
+    ]
+  },
+  {
+    "id": "tacos-de-carne-de-res",
+    "title": "Tacos de Carne de Res",
+    "time": "30 min",
+    "difficulty": "Facil",
+    "emoji": "🌮",
+    "ingredientIds": [
+      "Carne de res",
+      "Cebolla",
+      "Cilantro",
+      "Limon",
+      "Tomate",
+      "Tortilla"
+    ],
+    "steps": [
+      "Sazona la carne molida con sal, pimienta y comino.",
+      "Cocina en sartén caliente hasta dorar bien, unos 10 minutos, removiendo para que quede suelta.",
+      "Pica cebolla, tomate y cilantro para el pico de gallo, mezcla con jugo de limón.",
+      "Calienta las tortillas en sartén seca 30 segundos por lado.",
+      "Arma los tacos con la carne y el pico de gallo encima."
+    ]
+  },
+  {
+    "id": "sopa-de-pollo-con-verduras",
+    "title": "Sopa de Pollo con Verduras",
+    "time": "45 min",
+    "difficulty": "Medio",
+    "emoji": "🍗",
+    "ingredientIds": [
+      "Pechuga de pollo",
+      "Zanahoria",
+      "Papa",
+      "Cebolla",
+      "Ajo",
+      "Cilantro"
+    ],
+    "steps": [
+      "Coloca la pechuga en una olla con agua, cebolla y ajo; hierve 20 minutos hasta cocinar.",
+      "Retira el pollo, desmenúzalo y cuela el caldo.",
+      "Agrega zanahoria y papa en cubos al caldo, cocina 15 minutos hasta ablandar.",
+      "Devuelve el pollo desmenuzado a la olla, cocina 5 minutos más.",
+      "Sirve con cilantro fresco picado."
+    ]
+  },
+  {
+    "id": "ensalada-cesar-con-pollo",
+    "title": "Ensalada César con Pollo",
+    "time": "25 min",
+    "difficulty": "Facil",
+    "emoji": "🥗",
+    "ingredientIds": ["Pechuga de pollo", "Lechuga", "Queso parmesano", "Pan"],
+    "steps": [
+      "Salpimenta la pechuga y cocina a la plancha 6 minutos por lado hasta dorar; deja reposar y corta en tiras.",
+      "Corta el pan en cubos y tuesta en sartén con aceite hasta dorar para hacer los crutones.",
+      "Lava y trocea la lechuga.",
+      "Mezcla la lechuga con aderezo césar, queso parmesano rallado y los crutones.",
+      "Corona con las tiras de pollo."
+    ]
+  },
+  {
+    "id": "pechuga-limon-champinones",
+    "title": "Pechuga de Pollo al Limón con Champiñones",
+    "time": "30 min",
+    "difficulty": "Medio",
+    "emoji": "🍗",
+    "ingredientIds": [
+      "Pechuga de pollo",
+      "Limon",
+      "Champinon",
+      "Ajo",
+      "Perejil"
+    ],
+    "steps": [
+      "Salpimenta la pechuga y sella en sartén caliente 5 minutos por lado hasta dorar; reserva.",
+      "En la misma sartén saltea ajo picado y champiñones laminados durante 5 minutos.",
+      "Añade jugo de limón y un poco de agua, raspando el fondo de la sartén para desglasar.",
+      "Regresa el pollo a la sartén y cocina 5 minutos más a fuego medio hasta terminar de cocinar.",
+      "Finaliza con perejil picado y ralladura de limón."
+    ]
+  },
+  {
+    "id": "pollo-salteado-brocoli-zanahoria",
+    "title": "Pollo Salteado con Brócoli y Zanahoria",
+    "time": "25 min",
+    "difficulty": "Medio",
+    "emoji": "🥦",
+    "ingredientIds": [
+      "Pechuga de pollo",
+      "brocoli",
+      "Zanahoria",
+      "Ajo",
+      "Cebolla",
+      "Salsa de soya"
+    ],
+    "steps": [
+      "Corta la pechuga en tiras finas, el brócoli en floretes pequeños y la zanahoria en rodajas delgadas.",
+      "Calienta un wok a fuego alto con aceite y saltea el pollo 4 minutos hasta dorar; retira.",
+      "En el mismo wok saltea ajo y cebolla 2 minutos, agrega zanahoria y brócoli, saltea 5 minutos.",
+      "Devuelve el pollo al wok, añade salsa de soya y saltea todo junto 3 minutos.",
+      "Sirve caliente de inmediato."
+    ]
+  },
+  {
+    "id": "curry-de-pollo-papa-zanahoria",
+    "title": "Curry de Pollo con Papa y Zanahoria",
+    "time": "45 min",
+    "difficulty": "Medio",
+    "emoji": "🍛",
+    "ingredientIds": [
+      "Pechuga de pollo",
+      "Papa",
+      "Zanahoria",
+      "Cebolla",
+      "Ajo",
+      "Leche de coco",
+      "Curry en polvo"
+    ],
+    "steps": [
+      "Corta la pechuga en cubos y sofríe en aceite caliente hasta dorar, 6 minutos; reserva.",
+      "En la misma olla sofríe cebolla y ajo picados 5 minutos, agrega curry en polvo y tuesta 1 minuto.",
+      "Añade papa y zanahoria en cubos, mezclando con el sofrito.",
+      "Vierte la leche de coco, tapa y cocina a fuego medio-bajo 20 minutos hasta que las verduras estén tiernas.",
+      "Devuelve el pollo, cocina 5 minutos más y ajusta la sal."
+    ]
+  },
+  {
+    "id": "pollo-relleno-champinones-queso",
+    "title": "Pechuga de Pollo Rellena de Champiñones y Queso",
+    "time": "50 min",
+    "difficulty": "Dificil",
+    "emoji": "🍗",
+    "ingredientIds": [
+      "Pechuga de pollo",
+      "Champinon",
+      "Ajo",
+      "Perejil",
+      "Queso"
+    ],
+    "steps": [
+      "Haz un corte lateral en la pechuga para formar un bolsillo sin cortarla por completo.",
+      "Saltea champiñones picados con ajo durante 5 minutos hasta que suelten el agua y se reduzca.",
+      "Mezcla los champiñones con queso rallado y perejil picado.",
+      "Rellena la pechuga con la mezcla y cierra con palillos.",
+      "Sella en sartén 3 minutos por lado y termina de cocinar al horno a 190°C durante 20 minutos."
+    ]
+  },
+  {
+    "id": "ensalada-pollo-aguacate-tomate",
+    "title": "Ensalada de Pollo, Aguacate y Tomate",
+    "time": "20 min",
+    "difficulty": "Facil",
+    "emoji": "🥗",
+    "ingredientIds": [
+      "Pechuga de pollo",
+      "Aguacate",
+      "Tomate",
+      "Lechuga",
+      "Limon",
+      "Cilantro"
+    ],
+    "steps": [
+      "Cocina la pechuga a la plancha con sal y pimienta, 6 minutos por lado; deja reposar y corta en cubos.",
+      "Trocea la lechuga, el tomate y el aguacate.",
+      "Mezcla todos los ingredientes en un bowl.",
+      "Aliña con jugo de limón, aceite de oliva y cilantro picado.",
+      "Sirve inmediatamente para evitar que el aguacate se oxide."
+    ]
+  },
+  {
+    "id": "wrap-de-pollo-aguacate",
+    "title": "Wrap de Pollo con Lechuga y Aguacate",
+    "time": "15 min",
+    "difficulty": "Facil",
+    "emoji": "🌯",
+    "ingredientIds": [
+      "Pechuga de pollo",
+      "Lechuga",
+      "Aguacate",
+      "Tomate",
+      "Tortilla"
+    ],
+    "steps": [
+      "Cocina la pechuga a la plancha con sazón al gusto, 6 minutos por lado, y córtala en tiras.",
+      "Calienta la tortilla en sartén seca 20 segundos por lado.",
+      "Machaca el aguacate ligeramente y úntalo sobre la tortilla.",
+      "Coloca lechuga, tomate en rodajas y las tiras de pollo.",
+      "Enrolla firmemente el wrap y corta por la mitad."
+    ]
+  },
+  {
+    "id": "pollo-plancha-ensalada-pepino",
+    "title": "Pechuga a la Plancha con Ensalada de Pepino",
+    "time": "25 min",
+    "difficulty": "Facil",
+    "emoji": "🥒",
+    "ingredientIds": [
+      "Pechuga de pollo",
+      "Pepino",
+      "Tomate",
+      "Cebolla",
+      "Limon",
+      "Cilantro"
+    ],
+    "steps": [
+      "Salpimenta la pechuga y cocina a la plancha 6 minutos por lado hasta dorar.",
+      "Corta pepino y tomate en cubos, y la cebolla en juliana fina.",
+      "Mezcla los vegetales con jugo de limón y cilantro picado.",
+      "Deja reposar la ensalada 5 minutos para que se integren los sabores.",
+      "Corta la pechuga en láminas y sirve sobre la ensalada."
+    ]
+  },
+  {
+    "id": "champinones-al-ajillo",
+    "title": "Champiñones al Ajillo",
+    "time": "15 min",
+    "difficulty": "Facil",
+    "emoji": "🍄",
+    "ingredientIds": ["Champinon", "Ajo", "Perejil", "Limon", "Mantequilla"],
+    "steps": [
+      "Limpia los champiñones con un paño húmedo y córtalos por la mitad.",
+      "Derrite mantequilla con aceite en sartén caliente, agrega ajo laminado y dora 1 minuto sin quemar.",
+      "Añade los champiñones y saltea a fuego alto 6 minutos hasta que doren y suelten su jugo.",
+      "Vierte un chorrito de jugo de limón y cocina 1 minuto más.",
+      "Espolvorea con perejil picado antes de servir."
+    ]
+  },
+  {
+    "id": "risotto-de-champinones",
+    "title": "Risotto de Champiñones",
+    "time": "45 min",
+    "difficulty": "Dificil",
+    "emoji": "🍚",
+    "ingredientIds": [
+      "Champinon",
+      "Cebolla",
+      "Ajo",
+      "Perejil",
+      "Arroz",
+      "Caldo de pollo"
+    ],
+    "steps": [
+      "Pica finamente la cebolla y el ajo, y lamina los champiñones.",
+      "Sofríe cebolla y ajo en mantequilla durante 5 minutos hasta transparentar.",
+      "Añade el arroz y tuesta 2 minutos removiendo constantemente.",
+      "Incorpora el caldo caliente poco a poco, removiendo sin parar y esperando que se absorba antes de añadir más, durante 20 minutos.",
+      "En los últimos 10 minutos agrega los champiñones salteados aparte.",
+      "Finaliza con perejil picado y ajusta la sal."
+    ]
+  },
+  {
+    "id": "tortilla-espanola-papa-cebolla",
+    "title": "Tortilla Española de Papa y Cebolla",
+    "time": "40 min",
+    "difficulty": "Medio",
+    "emoji": "🍳",
+    "ingredientIds": ["Papa", "Cebolla", "Huevo", "Ajo"],
+    "steps": [
+      "Pela y corta las papas en láminas finas, y la cebolla en juliana.",
+      "Fríe papas y cebolla en abundante aceite a fuego medio-bajo durante 20 minutos hasta que estén tiernas sin dorar.",
+      "Escurre bien el aceite y mezcla con los huevos batidos y ajo picado; sazona con sal.",
+      "Vierte en sartén antiadherente caliente con poco aceite y cocina 5 minutos a fuego medio.",
+      "Voltea la tortilla con ayuda de un plato y cocina 4 minutos más por el otro lado."
+    ]
+  },
+  {
+    "id": "tortilla-champinones-pimenton",
+    "title": "Tortilla de Champiñones y Pimentón",
+    "time": "20 min",
+    "difficulty": "Facil",
+    "emoji": "🍳",
+    "ingredientIds": ["Huevo", "Champinon", "Pimenton", "Cebolla", "Ajo"],
+    "steps": [
+      "Pica champiñones, pimentón y cebolla en cubos pequeños.",
+      "Sofríe cebolla y ajo 3 minutos, agrega pimentón y champiñones y cocina 6 minutos hasta que estén tiernos.",
+      "Bate los huevos con sal y pimienta.",
+      "Vierte los huevos sobre el sofrito en la sartén y cocina a fuego medio 4 minutos.",
+      "Voltea con cuidado y cocina 3 minutos más hasta cuajar por completo."
+    ]
+  },
+  {
+    "id": "huevos-rancheros",
+    "title": "Huevos Rancheros",
+    "time": "25 min",
+    "difficulty": "Medio",
+    "emoji": "🍳",
+    "ingredientIds": [
+      "Huevo",
+      "Tomate",
+      "Cebolla",
+      "Pimenton",
+      "Ajo",
+      "Cilantro",
+      "Tortilla"
+    ],
+    "steps": [
+      "Sofríe cebolla, ajo y pimentón picados durante 5 minutos.",
+      "Agrega tomate triturado y cocina a fuego medio 12 minutos hasta formar una salsa espesa.",
+      "Calienta las tortillas en sartén seca.",
+      "Fríe los huevos por separado hasta que la clara esté cuajada y la yema líquida, unos 3 minutos.",
+      "Sirve los huevos sobre las tortillas bañados con la salsa y cilantro picado."
+    ]
+  },
+  {
+    "id": "ensalada-rusa",
+    "title": "Ensalada Rusa de Papa y Zanahoria",
+    "time": "30 min",
+    "difficulty": "Facil",
+    "emoji": "🥗",
+    "ingredientIds": ["Papa", "Zanahoria", "Huevo", "Mayonesa"],
+    "steps": [
+      "Hierve papas y zanahorias en cubos durante 15 minutos hasta que estén tiernas.",
+      "Hierve los huevos por separado 10 minutos para que queden duros, pela y pica.",
+      "Escurre y deja enfriar las papas y zanahorias.",
+      "Mezcla todo con mayonesa hasta integrar bien.",
+      "Refrigera 15 minutos antes de servir."
+    ]
+  },
+  {
+    "id": "sopa-de-papa-y-zanahoria",
+    "title": "Sopa de Papa y Zanahoria",
+    "time": "35 min",
+    "difficulty": "Facil",
+    "emoji": "🍲",
+    "ingredientIds": ["Papa", "Zanahoria", "Cebolla", "Ajo", "Cilantro"],
+    "steps": [
+      "Sofríe cebolla y ajo picados en una olla durante 5 minutos.",
+      "Agrega papa y zanahoria en cubos, cubre con agua o caldo.",
+      "Cocina a fuego medio 20 minutos hasta que las verduras estén blandas.",
+      "Machaca parcialmente con un tenedor para espesar la sopa dejando algunos trozos.",
+      "Sirve con cilantro fresco picado."
+    ]
+  },
+  {
+    "id": "papas-rellenas-de-carne",
+    "title": "Papas Rellenas de Carne de Res",
+    "time": "50 min",
+    "difficulty": "Medio",
+    "emoji": "🥔",
+    "ingredientIds": [
+      "Papa",
+      "Carne de res",
+      "Cebolla",
+      "Ajo",
+      "Tomate",
+      "Queso"
+    ],
+    "steps": [
+      "Hierve las papas enteras con cáscara durante 20 minutos hasta que estén tiernas; deja enfriar y pela.",
+      "Sofríe cebolla y ajo, agrega carne molida y dora 8 minutos.",
+      "Añade tomate picado y cocina 5 minutos más hasta reducir.",
+      "Corta la parte superior de las papas, vacía parcialmente y rellena con la carne.",
+      "Cubre con queso rallado y hornea a 190°C durante 15 minutos hasta gratinar."
+    ]
+  },
+  {
+    "id": "pure-de-papa-clasico",
+    "title": "Puré de Papa Clásico",
+    "time": "25 min",
+    "difficulty": "Facil",
+    "emoji": "🥔",
+    "ingredientIds": ["Papa", "Ajo", "Mantequilla", "Leche"],
+    "steps": [
+      "Pela y corta las papas en trozos uniformes.",
+      "Hierve junto con dientes de ajo enteros durante 18 minutos hasta que estén muy tiernas.",
+      "Escurre y machaca con un pisapapas o prensapurés.",
+      "Incorpora mantequilla y leche caliente poco a poco, mezclando hasta obtener una textura cremosa.",
+      "Ajusta sal y pimienta al gusto."
+    ]
+  },
+  {
+    "id": "pasta-champinones-ajo",
+    "title": "Pasta con Champiñones al Ajo",
+    "time": "20 min",
+    "difficulty": "Facil",
+    "emoji": "🍝",
+    "ingredientIds": ["Pasta", "Champinon", "Ajo", "Perejil"],
+    "steps": [
+      "Cocina la pasta en agua hirviendo con sal según el tiempo indicado en el paquete, unos 10 minutos.",
+      "Mientras tanto, lamina los champiñones y pica el ajo finamente.",
+      "Calienta aceite de oliva en sartén y dora el ajo 1 minuto sin quemar.",
+      "Añade los champiñones y saltea 6 minutos hasta dorar.",
+      "Escurre la pasta reservando un poco de agua de cocción y mezcla con los champiñones y perejil."
+    ]
+  },
+  {
+    "id": "pasta-pollo-brocoli-ajo",
+    "title": "Pasta con Pollo y Brócoli al Ajo",
+    "time": "30 min",
+    "difficulty": "Medio",
+    "emoji": "🍝",
+    "ingredientIds": [
+      "Pasta",
+      "Pechuga de pollo",
+      "brocoli",
+      "Ajo",
+      "Cebolla",
+      "Queso parmesano"
+    ],
+    "steps": [
+      "Corta la pechuga en cubos pequeños y sazona.",
+      "Cocina la pasta en agua con sal según las indicaciones del paquete.",
+      "En una sartén dora el pollo 6 minutos, retira y reserva.",
+      "En la misma sartén sofríe ajo y cebolla, agrega brócoli en floretes pequeños y saltea 5 minutos con un poco de agua para cocinarlo al vapor.",
+      "Mezcla la pasta escurrida con el pollo y el brócoli, y espolvorea queso parmesano."
+    ]
+  },
+  {
+    "id": "pasta-a-la-bolonesa",
+    "title": "Pasta a la Boloñesa con Carne de Res",
+    "time": "45 min",
+    "difficulty": "Medio",
+    "emoji": "🍝",
+    "ingredientIds": [
+      "Pasta",
+      "Carne de res",
+      "Tomate",
+      "Cebolla",
+      "Ajo",
+      "Zanahoria",
+      "Perejil"
+    ],
+    "steps": [
+      "Pica finamente cebolla, ajo y zanahoria.",
+      "Sofríe el mirepoix en aceite durante 6 minutos hasta suavizar.",
+      "Agrega la carne molida y cocina a fuego medio hasta dorar bien, deshaciendo los grumos, 8 minutos.",
+      "Incorpora el tomate triturado, tapa y cocina a fuego bajo 25 minutos removiendo ocasionalmente.",
+      "Cocina la pasta en agua con sal, escurre y mezcla con la salsa.",
+      "Sirve espolvoreado con perejil fresco."
+    ]
+  },
+  {
+    "id": "pasta-primavera-vegetales",
+    "title": "Pasta Primavera con Vegetales",
+    "time": "30 min",
+    "difficulty": "Medio",
+    "emoji": "🍝",
+    "ingredientIds": [
+      "Pasta",
+      "Zanahoria",
+      "brocoli",
+      "Pimenton",
+      "Tomate",
+      "Ajo",
+      "Cebolla"
+    ],
+    "steps": [
+      "Cocina la pasta en agua con sal según el tiempo del paquete.",
+      "Corta zanahoria, brócoli y pimentón en juliana o floretes pequeños.",
+      "Sofríe cebolla y ajo 3 minutos, agrega zanahoria y pimentón y saltea 5 minutos.",
+      "Incorpora brócoli y tomate en cubos, cocina 5 minutos más hasta que los vegetales estén al dente.",
+      "Mezcla con la pasta escurrida y un poco de agua de cocción para ligar la salsa."
+    ]
+  },
+  {
+    "id": "ensalada-de-pasta-fria",
+    "title": "Ensalada de Pasta Fría",
+    "time": "25 min",
+    "difficulty": "Facil",
+    "emoji": "🍝",
+    "ingredientIds": [
+      "Pasta",
+      "Tomate",
+      "Pepino",
+      "Cebolla",
+      "Limon",
+      "Perejil"
+    ],
+    "steps": [
+      "Cocina la pasta al dente según el paquete, escurre y enfría bajo agua fría.",
+      "Corta tomate y pepino en cubos pequeños, y la cebolla en cubos finos.",
+      "Mezcla la pasta con los vegetales en un bowl grande.",
+      "Aliña con jugo de limón, aceite de oliva, sal y pimienta.",
+      "Añade perejil picado y refrigera 15 minutos antes de servir."
+    ]
+  },
+  {
+    "id": "brocoli-zanahoria-al-vapor",
+    "title": "Brócoli y Zanahoria al Vapor con Limón",
+    "time": "15 min",
+    "difficulty": "Facil",
+    "emoji": "🥦",
+    "ingredientIds": ["brocoli", "Zanahoria", "Limon", "Ajo"],
+    "steps": [
+      "Corta el brócoli en floretes y la zanahoria en rodajas delgadas.",
+      "Cocina al vapor 8 minutos hasta que estén tiernos pero firmes.",
+      "Calienta aceite con ajo picado hasta que aromatice, 1 minuto.",
+      "Vierte el aceite de ajo sobre los vegetales al vapor.",
+      "Rocía con jugo de limón y sazona antes de servir."
+    ]
+  },
+  {
+    "id": "pure-zanahoria-auyama",
+    "title": "Puré de Zanahoria y Auyama",
+    "time": "30 min",
+    "difficulty": "Facil",
+    "emoji": "🥕",
+    "ingredientIds": [
+      "Zanahoria",
+      "Auyama",
+      "Cebolla",
+      "Ajo",
+      "Crema de leche"
+    ],
+    "steps": [
+      "Pela y corta zanahoria y auyama en trozos similares.",
+      "Hierve en agua con sal durante 20 minutos hasta que estén muy tiernas.",
+      "Sofríe cebolla y ajo aparte durante 5 minutos.",
+      "Escurre las verduras y tritura con licuadora o pisapapas junto con el sofrito.",
+      "Incorpora crema de leche y calienta 3 minutos más."
+    ]
+  },
+  {
+    "id": "sopa-zanahoria-jengibre",
+    "title": "Sopa de Zanahoria con Jengibre",
+    "time": "35 min",
+    "difficulty": "Medio",
+    "emoji": "🥕",
+    "ingredientIds": ["Zanahoria", "Papa", "Cebolla", "Ajo", "Jengibre"],
+    "steps": [
+      "Sofríe cebolla, ajo y jengibre rallado en una olla durante 5 minutos.",
+      "Agrega zanahoria y papa en cubos, cubre con agua o caldo.",
+      "Cocina a fuego medio 25 minutos hasta que las verduras estén muy tiernas.",
+      "Licúa todo hasta obtener una textura cremosa y homogénea.",
+      "Ajusta la sal y calienta 3 minutos más antes de servir."
+    ]
+  },
+  {
+    "id": "brocoli-gratinado",
+    "title": "Brócoli Gratinado con Ajo",
+    "time": "25 min",
+    "difficulty": "Facil",
+    "emoji": "🥦",
+    "ingredientIds": ["brocoli", "Ajo", "Queso", "Crema de leche"],
+    "steps": [
+      "Cocina el brócoli al vapor 6 minutos hasta que esté tierno pero firme.",
+      "Colócalo en una fuente para horno.",
+      "Mezcla la crema de leche con ajo picado y viértela sobre el brócoli.",
+      "Cubre con queso rallado.",
+      "Gratina en horno a 200°C durante 10 minutos hasta dorar la superficie."
+    ]
+  },
+  {
+    "id": "salteado-brocoli-carne-oriental",
+    "title": "Salteado de Brócoli con Carne de Res Estilo Oriental",
+    "time": "25 min",
+    "difficulty": "Medio",
+    "emoji": "🥦",
+    "ingredientIds": [
+      "brocoli",
+      "Carne de res",
+      "Ajo",
+      "Cebolla",
+      "Pimenton",
+      "Salsa de soya"
+    ],
+    "steps": [
+      "Corta la carne en tiras finas contra la fibra y marina con salsa de soya 10 minutos.",
+      "Calienta el wok a fuego alto, sella la carne 3 minutos hasta dorar, retira.",
+      "En el mismo wok saltea ajo y cebolla 2 minutos, agrega pimentón y brócoli, saltea 6 minutos.",
+      "Devuelve la carne al wok y añade un poco más de salsa de soya.",
+      "Saltea todo junto 2 minutos a fuego alto y sirve de inmediato."
+    ]
+  },
+  {
+    "id": "ensalada-pepino-tomate",
+    "title": "Ensalada de Pepino y Tomate con Limón",
+    "time": "10 min",
+    "difficulty": "Facil",
+    "emoji": "🥒",
+    "ingredientIds": ["Pepino", "Tomate", "Cebolla", "Limon", "Cilantro"],
+    "steps": [
+      "Corta pepino y tomate en cubos, y la cebolla en juliana fina.",
+      "Mezcla todos los vegetales en un bowl.",
+      "Aliña con jugo de limón, aceite de oliva, sal y pimienta.",
+      "Añade cilantro picado.",
+      "Deja reposar 5 minutos para que se integren los sabores."
+    ]
+  },
+  {
+    "id": "sopa-fria-pepino-aguacate",
+    "title": "Sopa Fría de Pepino y Aguacate",
+    "time": "15 min",
+    "difficulty": "Facil",
+    "emoji": "🥒",
+    "ingredientIds": ["Pepino", "Aguacate", "Limon", "Cilantro", "Ajo"],
+    "steps": [
+      "Pela el pepino y córtalo en trozos, retirando las semillas si son grandes.",
+      "Licúa el pepino con el aguacate, jugo de limón, ajo y un poco de agua fría hasta obtener una crema homogénea.",
+      "Ajusta la consistencia añadiendo más agua si es necesario.",
+      "Sazona con sal, pimienta y cilantro picado.",
+      "Refrigera al menos 20 minutos antes de servir bien fría."
+    ]
+  },
+  {
+    "id": "pimentones-rellenos-carne-arroz",
+    "title": "Pimentones Rellenos de Carne y Arroz",
+    "time": "60 min",
+    "difficulty": "Dificil",
+    "emoji": "🫑",
+    "ingredientIds": [
+      "Pimenton",
+      "Carne de res",
+      "Cebolla",
+      "Ajo",
+      "Tomate",
+      "Arroz"
+    ],
+    "steps": [
+      "Corta la parte superior de los pimentones y retira las semillas; reserva las tapas.",
+      "Sofríe cebolla y ajo 5 minutos, agrega carne molida y dora 8 minutos.",
+      "Añade arroz precocido y tomate picado, mezcla bien y cocina 5 minutos.",
+      "Rellena los pimentones con la mezcla y colócalos en una fuente para horno.",
+      "Hornea a 190°C cubiertos con papel aluminio durante 30 minutos hasta que el pimentón esté tierno."
+    ]
+  },
+  {
+    "id": "pimentones-asados-champinones",
+    "title": "Pimentones Asados con Champiñones y Ajo",
+    "time": "25 min",
+    "difficulty": "Facil",
+    "emoji": "🫑",
+    "ingredientIds": ["Pimenton", "Champinon", "Ajo", "Perejil"],
+    "steps": [
+      "Corta los pimentones en tiras gruesas y los champiñones en cuartos.",
+      "Calienta aceite en sartén a fuego medio-alto.",
+      "Saltea el pimentón 6 minutos hasta que empiece a ablandar.",
+      "Agrega champiñones y ajo picado, cocina 6 minutos más hasta dorar.",
+      "Finaliza con perejil picado y sal al gusto."
+    ]
+  },
+  {
+    "id": "salsa-criolla-pico-de-gallo",
+    "title": "Salsa Criolla (Pico de Gallo)",
+    "time": "10 min",
+    "difficulty": "Facil",
+    "emoji": "🍅",
+    "ingredientIds": ["Tomate", "Cebolla", "Cilantro", "Limon", "Pimenton"],
+    "steps": [
+      "Pica el tomate, la cebolla y el pimentón en cubos muy pequeños.",
+      "Pica finamente el cilantro.",
+      "Mezcla todos los vegetales en un bowl.",
+      "Añade jugo de limón, sal y pimienta al gusto.",
+      "Deja reposar 10 minutos antes de servir para que se integren los sabores."
+    ]
+  },
+  {
+    "id": "hogao-sofrito-colombiano",
+    "title": "Hogao (Sofrito Colombiano)",
+    "time": "20 min",
+    "difficulty": "Facil",
+    "emoji": "🍅",
+    "ingredientIds": ["Tomate", "Cebolla", "Ajo", "Pimenton", "Cilantro"],
+    "steps": [
+      "Pica finamente cebolla, tomate, pimentón y ajo.",
+      "Calienta aceite en sartén a fuego medio.",
+      "Sofríe la cebolla y el ajo 3 minutos hasta transparentar.",
+      "Agrega el tomate y el pimentón, cocina a fuego bajo 15 minutos removiendo ocasionalmente hasta formar una salsa espesa.",
+      "Finaliza con cilantro picado; úsalo como base para acompañar arroz, carnes o huevos."
+    ]
+  },
+  {
+    "id": "ensalada-lechuga-zanahoria-limon",
+    "title": "Ensalada de Lechuga y Zanahoria Rallada",
+    "time": "10 min",
+    "difficulty": "Facil",
+    "emoji": "🥬",
+    "ingredientIds": ["Lechuga", "Zanahoria", "Limon", "Cilantro"],
+    "steps": [
+      "Lava y trocea la lechuga.",
+      "Ralla la zanahoria con un rallador grueso.",
+      "Mezcla la lechuga y la zanahoria en un bowl.",
+      "Aliña con jugo de limón, aceite de oliva y sal.",
+      "Espolvorea cilantro picado antes de servir."
+    ]
+  },
+  {
+    "id": "tortilla-brocoli-papa",
+    "title": "Tortilla de Brócoli y Papa",
+    "time": "35 min",
+    "difficulty": "Medio",
+    "emoji": "🍳",
+    "ingredientIds": ["Huevo", "brocoli", "Papa", "Cebolla", "Ajo"],
+    "steps": [
+      "Pela y corta la papa en láminas finas, cocina en sartén con aceite a fuego medio-bajo 15 minutos hasta ablandar.",
+      "Blanquea el brócoli en agua hirviendo 3 minutos, escurre y pica en trozos pequeños.",
+      "Sofríe cebolla y ajo 4 minutos, incorpora el brócoli y la papa.",
+      "Bate los huevos con sal y viértelos sobre la mezcla en la sartén.",
+      "Cocina 5 minutos a fuego medio, voltea con ayuda de un plato y cocina 4 minutos más."
+    ]
+  },
+  {
+    "id": "pasta-con-berenjena-tomate",
+    "title": "Pasta con Berenjena y Salsa de Tomate",
+    "time": "40 min",
+    "difficulty": "Medio",
+    "emoji": "🍆",
+    "ingredientIds": [
+      "Pasta",
+      "Berenjena",
+      "Tomate",
+      "Ajo",
+      "Cebolla",
+      "Perejil"
+    ],
+    "steps": [
+      "Corta la berenjena en cubos pequeños, sala y deja reposar 10 minutos; luego seca con papel.",
+      "Fríe la berenjena en aceite caliente hasta dorar, unos 8 minutos; reserva.",
+      "Sofríe cebolla y ajo 5 minutos, agrega tomate triturado y cocina 15 minutos hasta espesar.",
+      "Incorpora la berenjena frita a la salsa y cocina 5 minutos más.",
+      "Cocina la pasta según el paquete, escurre y mezcla con la salsa; finaliza con perejil picado."
+    ]
+  }
+]

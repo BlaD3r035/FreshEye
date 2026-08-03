@@ -1,0 +1,26 @@
+path: ../dataset
+train: images/train
+val: images/val
+test: images/test
+
+names:
+  0: Aguacate
+  1: Ajo
+  2: Auyama
+  3: Berenjena
+  4: Carne_de_res
+  5: Cebolla
+  6: Champinon
+  7: Cilantro
+  8: Huevo
+  9: Lechuga
+  10: Limon
+  11: Papa
+  12: Pasta
+  13: Pechuga_de_pollo
+  14: Pepino
+  15: Perejil
+  16: Pimenton
+  17: Tomate
+  18: Zanahoria
+  19: brocoli
